@@ -4,6 +4,130 @@
 body{
     background-color: black;
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: $main-font;
 
+}
+.subcontent{
+            .a{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            h1{
+                @include sub-titulo;
+            }
+            .fondoimg{
+                display: flex;
+                flex-direction: row;
+                background: url("img/hero-background.jpg");
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                width: 100vw;
+                height: auto;
+            }
         }
+        .b{
+            @include sub-titulo;
+            .b1{
+                @include card-b;
+                    img{
+                        @include img-b;
+                    }
+                    h2{
+                       @include nombre-b; 
+                    }
+                    h3{
+                        @include precio-b;
+                    }
+                    span{
+                        @include ranking-b;
+                    }
+                
+            }
+            .b2{
+                @include card-b;
+                img{
+                    @include img-b;
+                }
+
+                h2{
+                   @include nombre-b; 
+                }
+                h3{
+                    @include precio-b;
+                }
+                span{
+                    @include ranking-b;
+                } 
+            }
+            .b3{
+                @include card-b;
+                img{
+                    @include img-b;
+                }
+
+                h2{
+                   @include nombre-b; 
+                }
+                h3{
+                    @include precio-b;
+                }
+                span{
+                    @include ranking-b;
+                } 
+            }
+            .b4{
+                @include card-b;
+                img{
+                    @include img-b;
+                }
+
+                h2{
+                   @include nombre-b; 
+                }
+                h3{
+                    @include precio-b;
+                }
+                span{
+                    @include ranking-b;
+                }
+            }
+            .b5{
+                @include card-b;
+                img{
+                    @include img-b;
+                }
+
+                h2{
+                   @include nombre-b; 
+                }
+                h3{
+                    @include precio-b;
+                }
+                span{
+                    @include ranking-b;
+                }
+            }
+        }
+        .c{
+            @include sub-titulo;
+            .c1{
+                position: relative;
+                border: solid white;
+                width:220px;
+                overflow: hidden;
+                h2{
+                    position:absolute;
+                    font-size: 35px;
+                    left:60px;
+                }
+                img{
+                    width: 100%;
+                }
+
+            }
+        }
+        
+
+}

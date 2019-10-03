@@ -1,11 +1,191 @@
 body {
-  font-family: "Lato", sans-serif;
-}
-
-body {
   background-color: black;
   color: white;
   font-family: "Lato", sans-serif;
+}
+
+.subcontent .a {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+.subcontent .a h1 {
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+}
+.subcontent .a .fondoimg {
+  display: flex;
+  flex-direction: row;
+  background: url("./img/hero-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+}
+.subcontent .b {
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+}
+.subcontent .b .b1 {
+  border: solid white 1px;
+  background-color: white;
+  width: 220px;
+  border-radius: 1%;
+  margin-bottom: 40px;
+}
+.subcontent .b .b1 img {
+  width: 100%;
+  border-radius: 1%;
+}
+.subcontent .b .b1 h2 {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 5px;
+}
+.subcontent .b .b1 h3 {
+  color: grey;
+  font-size: 30px;
+}
+.subcontent .b .b1 span {
+  color: black;
+  font-size: 30px;
+}
+.subcontent .b .b2 {
+  border: solid white 1px;
+  background-color: white;
+  width: 220px;
+  border-radius: 1%;
+  margin-bottom: 40px;
+}
+.subcontent .b .b2 img {
+  width: 100%;
+  border-radius: 1%;
+}
+.subcontent .b .b2 h2 {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 5px;
+}
+.subcontent .b .b2 h3 {
+  color: grey;
+  font-size: 30px;
+}
+.subcontent .b .b2 span {
+  color: black;
+  font-size: 30px;
+}
+.subcontent .b .b3 {
+  border: solid white 1px;
+  background-color: white;
+  width: 220px;
+  border-radius: 1%;
+  margin-bottom: 40px;
+}
+.subcontent .b .b3 img {
+  width: 100%;
+  border-radius: 1%;
+}
+.subcontent .b .b3 h2 {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 5px;
+}
+.subcontent .b .b3 h3 {
+  color: grey;
+  font-size: 30px;
+}
+.subcontent .b .b3 span {
+  color: black;
+  font-size: 30px;
+}
+.subcontent .b .b4 {
+  border: solid white 1px;
+  background-color: white;
+  width: 220px;
+  border-radius: 1%;
+  margin-bottom: 40px;
+}
+.subcontent .b .b4 img {
+  width: 100%;
+  border-radius: 1%;
+}
+.subcontent .b .b4 h2 {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 5px;
+}
+.subcontent .b .b4 h3 {
+  color: grey;
+  font-size: 30px;
+}
+.subcontent .b .b4 span {
+  color: black;
+  font-size: 30px;
+}
+.subcontent .b .b5 {
+  border: solid white 1px;
+  background-color: white;
+  width: 220px;
+  border-radius: 1%;
+  margin-bottom: 40px;
+}
+.subcontent .b .b5 img {
+  width: 100%;
+  border-radius: 1%;
+}
+.subcontent .b .b5 h2 {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 5px;
+}
+.subcontent .b .b5 h3 {
+  color: grey;
+  font-size: 30px;
+}
+.subcontent .b .b5 span {
+  color: black;
+  font-size: 30px;
+}
+.subcontent .c {
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+}
+.subcontent .c .c1 {
+  position: relative;
+  border: solid white;
+  width: 220px;
+  overflow: hidden;
+}
+.subcontent .c .c1 h2 {
+  position: absolute;
+  font-size: 35px;
+  left: 60px;
+}
+.subcontent .c .c1 img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
