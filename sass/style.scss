@@ -5,45 +5,96 @@ body{
     background-color: black;
     color: white;
     font-family: $main-font;
+    margin: 0px;
 
 }
 .subcontent{
+    display: flex;
+    flex-direction: column;
             .a{
-            width: 100%;
-            height: 300px;
-            display: flex;
-            h1{
-                @include sub-titulo;
-            }
-            .fondoimg{
-                display: flex;
-                flex-direction: row;
-                background: url("img/hero-background.jpg");
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: cover;
-                width: 100vw;
-                height: auto;
-            }
-        }
+                .fondoimg{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background: url("../img/hero-background.jpg");
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 100vw;
+                    height: 400px;
+                }
+                h1{
+                    display: flex;
+                    text-align: center;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    font-size: 30px;
+                    width: 184px;
+                    margin: 15px;
+                }
+                h2{
+                    display: flex;
+                    text-align: center;
+                    font-size: 20px;
+                    font-style: italic;
+                    text-shadow: 2px 2px black;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    width:130px;
+                    margin: 0px;
+                }
+                .button-a{
+                    display: flex;
+                    justify-content: center;
+                
+                    button{
+                        margin-top: 25px;
+                        border: solid white 1px;
+                        border-radius: 7%;
+                        background-color: black;
+                        color: white;
+                        font-size: 150%;
+                        width: 130px;
+                        height: 70px;
+                        font-weight: bold;
+                        transition: background-color 0.2s linear;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: white;
+                            color: black;
+                        }
+                    }
+                }
+            }    
+        
         .b{
-            @include sub-titulo;
+            
             .b1{
-                @include card-b;
+                display: flex;
+                flex-direction: column;
+                border: solid white 1px;
+                background-color: white;
+                width:70%;
+                height: 50vh;
+                border-radius: 1%;
+                margin-bottom: 40px;
+     
                     img{
-                        @include img-b;
+                        width: 100%;
+                        border-radius: 1%; 
                     }
                     h2{
-                       @include nombre-b; 
+                        color: grey;
+                        font-size: 30px;
                     }
                     h3{
-                        @include precio-b;
+                        color: grey;
+                        font-size: 30px;
                     }
                     span{
-                        @include ranking-b;
+                        color:black;
+                        font-size:30px;
                     }
-                
             }
             .b2{
                 @include card-b;
