@@ -1,19 +1,20 @@
 .c{
     display: flex;
     flex-direction: column;
-    .c1{
-        position: relative;
-        border: solid white;
-        width:220px;
-        overflow: hidden;
-        h2{
-            position:absolute;
-            font-size: 35px;
-            left:60px;
-        }
-        img{
-            width: 100%;
-        }
+    margin-left: 50px;
+    
 
+    .c1{
+        .imgc1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: url("../img/shoes.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 60vw;
+            height: 300px;
+        }
     }
 }
