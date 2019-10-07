@@ -1,0 +1,192 @@
+.b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: 40px;
+        width:45vw;
+    }
+    .b1{
+        display: flex;
+        flex-wrap: wrap;
+        border: solid white 1px;
+        background-color: white;
+        width:70%;
+        height: 60vh;
+        border: black;
+        border-radius: 1%;
+        margin-bottom: 40px;
+        .contimg{
+            width: 300px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                border-radius: 1%;
+            }
+        }
+        .subtitulo{
+            display: flex;
+            color: grey;
+            font-size: 100%;
+            h2{
+                width: auto;
+                margin-left: 5px;
+                text-align: left;
+            }
+            h3{
+                width: auto;  
+                text-align: right;
+            }
+        }
+        span{
+            display: flex;
+            align-self: flex-end; 
+            color:black;
+            font-size:30px;
+        }
+    }
+    .b2{
+        display: flex;
+        flex-wrap: wrap;
+        border: solid white 1px;
+        background-color: white;
+        width:70%;
+        height: 60vh;
+        border: black;
+        border-radius: 1%;
+        margin-bottom: 40px;
+
+            img{
+                width: 100%;
+                border-radius: 1%;
+            }
+            h2{
+                display: inline-block;
+                color: grey;
+                font-size: 15px;
+                width: auto;
+                margin-left: 5px;
+            }
+            h3{
+                display: inline-block;
+                color: grey;
+                font-size: 15px;
+                width: auto;
+                
+            }
+            span{
+                display: flex;
+                align-self: flex-end; 
+                color:black;
+                font-size:30px;
+            }
+    }        
+    .b3{
+        display: flex;
+        flex-wrap: wrap;
+        border: solid white 1px;
+        background-color: white;
+        width:70%;
+        height: 60vh;
+        border: black;
+        border-radius: 1%;
+        margin-bottom: 40px;
+
+            img{
+                width: 100%;
+                border-radius: 1%;
+            }
+            h2{
+                display: inline-block;
+                color: grey;
+                font-size: 15px;
+                width: auto;
+                margin-left: 5px;
+            }
+            h3{
+                display: inline-block;
+                color: grey;
+                font-size: 15px;
+                width: auto;
+                margin-left: 5px;
+                
+            }
+            span{
+                display: flex;
+                align-self: flex-end; 
+                color:black;
+                font-size:30px;
+            }
+    }
+    .b4{
+        display: flex;
+        flex-wrap: wrap;
+        border: solid white 1px;
+        background-color: white;
+        width:70%;
+        height: 60vh;
+        border: black;
+        border-radius: 1%;
+        margin-bottom: 40px;
+
+            img{
+                width: 100%;
+                border-radius: 1%;
+            }
+            h2{
+                display: inline-block;
+                color: grey;
+                font-size: 15px;
+                width: auto;
+                margin-left: 5px;
+            }
+            h3{
+                display: inline-block;
+                color: grey;
+                font-size: 15px;
+                width: auto;
+                
+            }
+            span{
+                display: flex;
+                align-self: flex-end; 
+                color:black;
+                font-size:30px;
+            }
+    }
+    .b5{
+        display: flex;
+        flex-wrap: wrap;
+        border: solid white 1px;
+        background-color: white;
+        width:70%;
+        height: 60vh;
+        border: black;
+        border-radius: 1%;
+        margin-bottom: 40px;
+
+            img{
+                width: 100%;
+                border-radius: 1%;
+            }
+            h2{
+                display: inline-block;
+                color: grey;
+                font-size: 15px;
+                width: auto;
+                margin-left: 5px;
+            }
+            h3{
+                display: inline-block;
+                color: grey;
+                font-size: 15px;
+                width: auto;
+            }
+            span{
+                display: flex;
+                align-self: flex-end; 
+                color:black;
+                font-size:30px;
+            }
+    }
+ }

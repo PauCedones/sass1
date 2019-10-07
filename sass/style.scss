@@ -1,5 +1,7 @@
 @import 'common/variables';
 @import 'common/mixins';
+@import 'sections/01-\ Featured\ products';
+@import 'sections/02-\ Browse\ items';
 
 body{
     background-color: black;
@@ -7,8 +9,7 @@ body{
     font-family: $main-font;
     margin: 0px;
 
-}
-.subcontent{
+    .subcontent{
     display: flex;
     flex-direction: column;
             .a{
@@ -67,118 +68,7 @@ body{
                 }
             }    
         
-        .b{
-            
-            .b1{
-                display: flex;
-                flex-direction: column;
-                border: solid white 1px;
-                background-color: white;
-                width:70%;
-                height: 50vh;
-                border-radius: 1%;
-                margin-bottom: 40px;
-     
-                    img{
-                        width: 100%;
-                        border-radius: 1%; 
-                    }
-                    h2{
-                        color: grey;
-                        font-size: 30px;
-                    }
-                    h3{
-                        color: grey;
-                        font-size: 30px;
-                    }
-                    span{
-                        color:black;
-                        font-size:30px;
-                    }
-            }
-            .b2{
-                @include card-b;
-                img{
-                    @include img-b;
-                }
-
-                h2{
-                   @include nombre-b; 
-                }
-                h3{
-                    @include precio-b;
-                }
-                span{
-                    @include ranking-b;
-                } 
-            }
-            .b3{
-                @include card-b;
-                img{
-                    @include img-b;
-                }
-
-                h2{
-                   @include nombre-b; 
-                }
-                h3{
-                    @include precio-b;
-                }
-                span{
-                    @include ranking-b;
-                } 
-            }
-            .b4{
-                @include card-b;
-                img{
-                    @include img-b;
-                }
-
-                h2{
-                   @include nombre-b; 
-                }
-                h3{
-                    @include precio-b;
-                }
-                span{
-                    @include ranking-b;
-                }
-            }
-            .b5{
-                @include card-b;
-                img{
-                    @include img-b;
-                }
-
-                h2{
-                   @include nombre-b; 
-                }
-                h3{
-                    @include precio-b;
-                }
-                span{
-                    @include ranking-b;
-                }
-            }
-        }
-        .c{
-            @include sub-titulo;
-            .c1{
-                position: relative;
-                border: solid white;
-                width:220px;
-                overflow: hidden;
-                h2{
-                    position:absolute;
-                    font-size: 35px;
-                    left:60px;
-                }
-                img{
-                    width: 100%;
-                }
-
-            }
-        }
         
+    }    
 
 }
