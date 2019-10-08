@@ -31,16 +31,11 @@
   justify-content: space-between;
   color: grey;
   font-size: 70%;
+  width: 100%;
 }
 .b .b1 .subtitulo h2 {
   margin-left: 5px;
   margin-top: 0px;
-  text-align: left;
-}
-.b .b1 .subtitulo h3 {
-  width: auto;
-  text-align: right;
-  margin: 0px;
 }
 .b .b1 span {
   display: flex;
@@ -189,7 +184,16 @@
 .c {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
+  align-items: center;
+  margin-left: 10px;
+}
+.c h1 {
+  font-size: 40px;
+  width: 32vw;
+  text-align: center;
+}
+.c .c1 {
+  margin-bottom: 30px;
 }
 .c .c1 .imgc1 {
   display: flex;
@@ -200,7 +204,145 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 60vw;
-  height: 300px;
+  height: 250px;
+}
+.c .c1 .imgc1:hover {
+  cursor: pointer;
+  box-shadow: 2px 0px 16px 3px white;
+}
+.c .c2 {
+  margin-bottom: 30px;
+}
+.c .c2 .imgc2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../img/jeans.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60vw;
+  height: 360px;
+}
+.c .c2 .imgc2:hover {
+  cursor: pointer;
+  box-shadow: 2px 0px 16px 3px white;
+}
+.c .c3 {
+  margin-bottom: 30px;
+}
+.c .c3 .imgc3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../img/shirts.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60vw;
+  height: 360px;
+}
+.c .c3 .imgc3:hover {
+  cursor: pointer;
+  box-shadow: 2px 0px 16px 3px white;
+}
+.c .c4 .imgc4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../img/outfits.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60vw;
+  height: 640px;
+}
+.c .c4 .imgc4:hover {
+  cursor: pointer;
+  box-shadow: 2px 0px 16px 3px white;
+}
+
+footer {
+  background-color: #343a40;
+  text-align: center;
+  padding: 40px;
+  margin-top: 50px;
+}
+footer header h1 {
+  border-bottom: white solid 1px;
+  line-height: 252%;
+  font-size: 230%;
+}
+footer .f2 {
+  margin-bottom: 50px;
+}
+footer .f2 h1 {
+  font-size: 160%;
+}
+footer .f2 h2 {
+  font-size: 110%;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+footer .f3 h1 {
+  font-size: 160%;
+}
+footer .f3 h2 {
+  font-size: 110%;
+}
+footer .f3 h3 {
+  font: size 110%;
+  font-weight: 400;
+}
+footer .f4 h1 {
+  font-size: 160%;
+}
+footer .f4 h2 {
+  font-size: 110%;
+  font-weight: 400;
+}
+footer .f4 .button-f4 {
+  display: flex;
+  justify-content: center;
+}
+footer .f4 .button-f4 button {
+  background-color: #343a40;
+  margin-top: 25px;
+  border: solid white 1px;
+  border-radius: 7%;
+  color: white;
+  font-size: 100%;
+  width: 120px;
+  height: 40px;
+  font-weight: 400;
+  transition: background-color 0.2s linear;
+}
+footer .f4 .button-f4 button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+footer .f5 h1 {
+  font-size: 160%;
+}
+footer .f5 a {
+  display: block;
+}
+footer .f5 a:hover {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline #007bff;
+}
+footer .f5 a:visited {
+  color: #17a2b8;
+}
+footer .f5 img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 80vw;
 }
 
 body {
